@@ -1,0 +1,35 @@
+p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+}
+
+#btn-div {
+    text-align: center;
+}
+
+button {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #006699; /* Green */
+    color: white;
+  }

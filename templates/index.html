@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>My Flask App</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="{{url_for('static', filename='js/main.js')}}"></script>
+    </head>
+    <body>
+        <img src="{{ src_link }}" alt="">
+        <div id="btn-div">
+            <button class="btn" name='duck'>Duck</button>
+            <button class="btn" name='llama'>Llama</button>
+        </div>
+    </body>
+</html>
